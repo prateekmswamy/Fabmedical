@@ -12,20 +12,6 @@ branches:
 
 paths:
 
-name: content-web
-
-# This workflow is triggered on push to the 'content-web' directory of the master branch of the repository
-
-on:
-
-push:
-
-branches:
-
-- master
-
-paths:
-
 - 'content-web/**'
 
 # Configure workflow to also support triggering manually
